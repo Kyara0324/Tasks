@@ -1,0 +1,19 @@
+.side-bar {
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 300px;
+  height: 100%;
+  background-color: #dfdfdf;
+  border-right: 2px solid #afafaf;
+  transition: left 0.3s;
+}
+
+.side-bar-btn {
+  float: right;
+}
+
+.active {
+  left: 0;
+}
