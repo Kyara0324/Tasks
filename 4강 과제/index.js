@@ -87,3 +87,4 @@ const { 이름, 나이, 주소 } = user;
 console.log(이름);
 console.log(나이);
 console.log(주소);
+console.log(`${이름} ${나이} ${주소}`);
